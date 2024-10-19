@@ -82,7 +82,7 @@ def display_weather_in_top_center(frame, text, font, font_scale, font_color):
     cv2.putText(frame, text, (text_x, text_y), font, font_scale, font_color, 2, cv2.LINE_AA)
 
 # Open the video
-cap = cv2.VideoCapture('traffic_sample_video.mp4')
+cap = cv2.VideoCapture('sample_video.mp4')
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
