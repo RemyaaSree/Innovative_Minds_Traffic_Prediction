@@ -75,5 +75,4 @@ Predicted weather condition based on video analysis.
 YOLOv8 Model
 The YOLOv8 model used in this project is pretrained and fine-tuned on traffic-specific datasets. It can detect vehicles and other objects in the traffic scene with high accuracy. The model file best.pt is required for the system to work.
 
-"C:\Users\remya\OneDrive\Pictures\Screenshots\Screenshot 2024-10-18 142249.png"
 
