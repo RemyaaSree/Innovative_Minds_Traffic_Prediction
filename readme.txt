@@ -7,13 +7,16 @@ Traffic Intensity Prediction: It classifies traffic conditions as either "Heavy"
 Weather Detection: Predicts the weather conditions (Rainy, Foggy, Clear Sky, etc.) based on visual analysis of the traffic video.
 Web Interface: Users can upload traffic videos through a simple web interface, and the system provides real-time analysis results.
 Flask Backend: The backend processes the uploaded video, runs the YOLOv8 model for vehicle detection, and returns the prediction results.
+
+
 Tech Stack
 Backend: Python, Flask, OpenCV, YOLOv8 (Ultralytics)
 Frontend: HTML, CSS (Bootstrap), JavaScript
 Machine Learning Model: YOLOv8 (Pretrained and fine-tuned)
+
+
 Project Structure
-php
-Copy code
+
 .
 ├── models
 │   └── best.pt                # Pretrained YOLOv8 model
@@ -27,6 +30,8 @@ Copy code
 ├── real_time_traffic_analysis.py # Flask backend for real-time traffic analysis
 ├── README.md                  # Project documentation
 └── requirements.txt           # Required Python dependencies
+
+
 How It Works
 Video Upload: The user uploads a traffic video via the web interface.
 Video Processing: The YOLOv8 model processes each frame of the video to detect vehicles in two lanes.
@@ -38,28 +43,22 @@ Prerequisites
 Python 3.x
 YOLOv8 (Ultralytics) model file (best.pt)
 Step-by-Step Setup
-Clone the repository:
 
-bash
-Copy code
+
+Clone the repository:
 git clone https://github.com/yourusername/traffic-prediction-system.git
 cd traffic-prediction-system
+
 Install the dependencies:
-
 Install the required Python packages using requirements.txt:
-
-bash
-Copy code
 pip install -r requirements.txt
-The key dependencies include:
 
+The key dependencies include:
 Flask
 OpenCV
 Ultralytics YOLO
-Run the Flask application:
 
-bash
-Copy code
+Run the Flask application:
 python real_time_traffic_analysis.py
 Access the web interface:
 
